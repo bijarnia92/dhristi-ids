@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b9b2c1e5e54efaf706de1df4215f25f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b9b2c1e5e54efaf706de1df4215f25f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b9b2c1e5e54efaf706de1df4215f25f3 = L.map(
+                "map_b9b2c1e5e54efaf706de1df4215f25f3",
+                {
+                    center: [25.069619914483575, 28.647874925644587],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ccd387520c2a741938c8ee29ca774ab0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ccd387520c2a741938c8ee29ca774ab0.addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+            var circle_marker_d3702eb68f04858a93d48bc791e680c1 = L.circleMarker(
+                [50.20096551847671, 30.31207223262156],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_b128d357a5d4c435ac9166b81eafdd73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67d308efcf3243f3296e8cea0387a1f6 = $(`<div id="html_67d308efcf3243f3296e8cea0387a1f6" style="width: 100.0%; height: 100.0%;">                 <b>Attack #1</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 78.00%<br>                 <b>Coordinates:</b> 50.2010, 30.3121                 </div>`)[0];
+                popup_b128d357a5d4c435ac9166b81eafdd73.setContent(html_67d308efcf3243f3296e8cea0387a1f6);
+            
+        
+
+        circle_marker_d3702eb68f04858a93d48bc791e680c1.bindPopup(popup_b128d357a5d4c435ac9166b81eafdd73)
+        ;
+
+        
+    
+    
+            var circle_marker_a8f6c12fd2e026b6223df62225d91ef0 = L.circleMarker(
+                [56.06213422775151, 38.050021719317485],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_34345eec50bb8dc7d66970a2edaf5c9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_843b5d2e8d9ef739c9b05d29f5e8af93 = $(`<div id="html_843b5d2e8d9ef739c9b05d29f5e8af93" style="width: 100.0%; height: 100.0%;">                 <b>Attack #2</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Moscow, Russia<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 85.00%<br>                 <b>Coordinates:</b> 56.0621, 38.0500                 </div>`)[0];
+                popup_34345eec50bb8dc7d66970a2edaf5c9c.setContent(html_843b5d2e8d9ef739c9b05d29f5e8af93);
+            
+        
+
+        circle_marker_a8f6c12fd2e026b6223df62225d91ef0.bindPopup(popup_34345eec50bb8dc7d66970a2edaf5c9c)
+        ;
+
+        
+    
+    
+            var circle_marker_776d780765659aba13944b12dcd6c503 = L.circleMarker(
+                [21.145689686926314, 105.77056482375009],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_6027a3dd9dd7354dd80c128b9f3b14fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b3a3a32bd3cbb4f6082b213b56f0a4 = $(`<div id="html_45b3a3a32bd3cbb4f6082b213b56f0a4" style="width: 100.0%; height: 100.0%;">                 <b>Attack #3</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 21.1457, 105.7706                 </div>`)[0];
+                popup_6027a3dd9dd7354dd80c128b9f3b14fc.setContent(html_45b3a3a32bd3cbb4f6082b213b56f0a4);
+            
+        
+
+        circle_marker_776d780765659aba13944b12dcd6c503.bindPopup(popup_6027a3dd9dd7354dd80c128b9f3b14fc)
+        ;
+
+        
+    
+    
+            var circle_marker_181e739772b1e609703d74353b9a46f7 = L.circleMarker(
+                [50.57736723603568, 30.4294255853403],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_d3e8ae9b012d9fb387107357a24472d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_557163f30124677a60c4a7deaf1f99de = $(`<div id="html_557163f30124677a60c4a7deaf1f99de" style="width: 100.0%; height: 100.0%;">                 <b>Attack #4</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 82.00%<br>                 <b>Coordinates:</b> 50.5774, 30.4294                 </div>`)[0];
+                popup_d3e8ae9b012d9fb387107357a24472d1.setContent(html_557163f30124677a60c4a7deaf1f99de);
+            
+        
+
+        circle_marker_181e739772b1e609703d74353b9a46f7.bindPopup(popup_d3e8ae9b012d9fb387107357a24472d1)
+        ;
+
+        
+    
+    
+            var circle_marker_b66110187f7428fdb1de49469e33a847 = L.circleMarker(
+                [19.300146300779726, 72.3984585019232],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_7ee887e79348a7ff947b0909e37a1169 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c8f316187c8629648b01abd1df13f10 = $(`<div id="html_4c8f316187c8629648b01abd1df13f10" style="width: 100.0%; height: 100.0%;">                 <b>Attack #5</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Mumbai, India<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 98.00%<br>                 <b>Coordinates:</b> 19.3001, 72.3985                 </div>`)[0];
+                popup_7ee887e79348a7ff947b0909e37a1169.setContent(html_4c8f316187c8629648b01abd1df13f10);
+            
+        
+
+        circle_marker_b66110187f7428fdb1de49469e33a847.bindPopup(popup_7ee887e79348a7ff947b0909e37a1169)
+        ;
+
+        
+    
+    
+            var circle_marker_c4b1ded0a7fd545e757743d960595be4 = L.circleMarker(
+                [40.505721442616334, -73.55981075079995],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_b3558c59cab0f31908133945b107169f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f11da60c460d5ce416aa3bf7914a40c9 = $(`<div id="html_f11da60c460d5ce416aa3bf7914a40c9" style="width: 100.0%; height: 100.0%;">                 <b>Attack #6</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 81.00%<br>                 <b>Coordinates:</b> 40.5057, -73.5598                 </div>`)[0];
+                popup_b3558c59cab0f31908133945b107169f.setContent(html_f11da60c460d5ce416aa3bf7914a40c9);
+            
+        
+
+        circle_marker_c4b1ded0a7fd545e757743d960595be4.bindPopup(popup_b3558c59cab0f31908133945b107169f)
+        ;
+
+        
+    
+    
+            var circle_marker_33428c5c0ff7b31283fb6bbac9aee96c = L.circleMarker(
+                [19.535442021294546, 73.36655882399968],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_e755d5424f04385241093fe8221613d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_681b615422497fe632646440ae6fbbc4 = $(`<div id="html_681b615422497fe632646440ae6fbbc4" style="width: 100.0%; height: 100.0%;">                 <b>Attack #7</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Mumbai, India<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 96.00%<br>                 <b>Coordinates:</b> 19.5354, 73.3666                 </div>`)[0];
+                popup_e755d5424f04385241093fe8221613d3.setContent(html_681b615422497fe632646440ae6fbbc4);
+            
+        
+
+        circle_marker_33428c5c0ff7b31283fb6bbac9aee96c.bindPopup(popup_e755d5424f04385241093fe8221613d3)
+        ;
+
+        
+    
+    
+            var circle_marker_5738d28a3068efb34635e502eef9687d = L.circleMarker(
+                [35.72600536169345, 51.136956692850404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_c401c7dc8a05409eb1301ce1d82e0bab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98382117afa3ba5305855f19200baa28 = $(`<div id="html_98382117afa3ba5305855f19200baa28" style="width: 100.0%; height: 100.0%;">                 <b>Attack #8</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 76.00%<br>                 <b>Coordinates:</b> 35.7260, 51.1370                 </div>`)[0];
+                popup_c401c7dc8a05409eb1301ce1d82e0bab.setContent(html_98382117afa3ba5305855f19200baa28);
+            
+        
+
+        circle_marker_5738d28a3068efb34635e502eef9687d.bindPopup(popup_c401c7dc8a05409eb1301ce1d82e0bab)
+        ;
+
+        
+    
+    
+            var circle_marker_720310d0de0e395a103f715248f9de46 = L.circleMarker(
+                [40.90051633797576, -73.91827003900958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_54c7eb15c3549b2e1f0451d3c75f1f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83a00a64ea449ebf47c98c718b7832aa = $(`<div id="html_83a00a64ea449ebf47c98c718b7832aa" style="width: 100.0%; height: 100.0%;">                 <b>Attack #9</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 88.00%<br>                 <b>Coordinates:</b> 40.9005, -73.9183                 </div>`)[0];
+                popup_54c7eb15c3549b2e1f0451d3c75f1f59.setContent(html_83a00a64ea449ebf47c98c718b7832aa);
+            
+        
+
+        circle_marker_720310d0de0e395a103f715248f9de46.bindPopup(popup_54c7eb15c3549b2e1f0451d3c75f1f59)
+        ;
+
+        
+    
+    
+            var circle_marker_0b210b14a578017c61f9b31c2de4f54b = L.circleMarker(
+                [55.881564893018194, 37.176197156309335],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_f5fd91cf8f87f5f38f6a9392f9a880b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cab56fbfc02297f99329b463015a0f99 = $(`<div id="html_cab56fbfc02297f99329b463015a0f99" style="width: 100.0%; height: 100.0%;">                 <b>Attack #10</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Moscow, Russia<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 92.00%<br>                 <b>Coordinates:</b> 55.8816, 37.1762                 </div>`)[0];
+                popup_f5fd91cf8f87f5f38f6a9392f9a880b0.setContent(html_cab56fbfc02297f99329b463015a0f99);
+            
+        
+
+        circle_marker_0b210b14a578017c61f9b31c2de4f54b.bindPopup(popup_f5fd91cf8f87f5f38f6a9392f9a880b0)
+        ;
+
+        
+    
+    
+            var circle_marker_7d80fdcb03e2c63da19b8c7b8a4ba82a = L.circleMarker(
+                [-23.065927091433757, -46.53791033528051],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_3348db15b2a2286bf75cc5369cde5d1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_046f85e202f45575daa875f372af4918 = $(`<div id="html_046f85e202f45575daa875f372af4918" style="width: 100.0%; height: 100.0%;">                 <b>Attack #11</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 83.00%<br>                 <b>Coordinates:</b> -23.0659, -46.5379                 </div>`)[0];
+                popup_3348db15b2a2286bf75cc5369cde5d1a.setContent(html_046f85e202f45575daa875f372af4918);
+            
+        
+
+        circle_marker_7d80fdcb03e2c63da19b8c7b8a4ba82a.bindPopup(popup_3348db15b2a2286bf75cc5369cde5d1a)
+        ;
+
+        
+    
+    
+            var circle_marker_e84e406f7ee5c5a12b5e997bf82368e8 = L.circleMarker(
+                [6.1432945469690186, 3.837933036807371],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_26fac73b9975e9725bbbc98ff662bf9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69a55ba06a2c90031bbdac50d2b6a728 = $(`<div id="html_69a55ba06a2c90031bbdac50d2b6a728" style="width: 100.0%; height: 100.0%;">                 <b>Attack #12</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 87.00%<br>                 <b>Coordinates:</b> 6.1433, 3.8379                 </div>`)[0];
+                popup_26fac73b9975e9725bbbc98ff662bf9f.setContent(html_69a55ba06a2c90031bbdac50d2b6a728);
+            
+        
+
+        circle_marker_e84e406f7ee5c5a12b5e997bf82368e8.bindPopup(popup_26fac73b9975e9725bbbc98ff662bf9f)
+        ;
+
+        
+    
+    
+            var circle_marker_872e1a77b695d546afbec1975047c0d5 = L.circleMarker(
+                [-23.324870914095275, -46.663397738541256],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_922620eef93bf621ffa1297a4ebd87dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1172e6b2d90899922c5ea52cf2abe85e = $(`<div id="html_1172e6b2d90899922c5ea52cf2abe85e" style="width: 100.0%; height: 100.0%;">                 <b>Attack #13</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 80.00%<br>                 <b>Coordinates:</b> -23.3249, -46.6634                 </div>`)[0];
+                popup_922620eef93bf621ffa1297a4ebd87dd.setContent(html_1172e6b2d90899922c5ea52cf2abe85e);
+            
+        
+
+        circle_marker_872e1a77b695d546afbec1975047c0d5.bindPopup(popup_922620eef93bf621ffa1297a4ebd87dd)
+        ;
+
+        
+    
+    
+            var circle_marker_d788dab8654a27510b26261959870fcf = L.circleMarker(
+                [-23.47191638197284, -46.80281081501881],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_f01545896a7f5a413c8dc580c38c97c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b15a0d28652a99fa2fff4867e0ccc0a = $(`<div id="html_8b15a0d28652a99fa2fff4867e0ccc0a" style="width: 100.0%; height: 100.0%;">                 <b>Attack #14</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 79.00%<br>                 <b>Coordinates:</b> -23.4719, -46.8028                 </div>`)[0];
+                popup_f01545896a7f5a413c8dc580c38c97c3.setContent(html_8b15a0d28652a99fa2fff4867e0ccc0a);
+            
+        
+
+        circle_marker_d788dab8654a27510b26261959870fcf.bindPopup(popup_f01545896a7f5a413c8dc580c38c97c3)
+        ;
+
+        
+    
+    
+            var circle_marker_f7aa22306e74e3564cdca7f3e03463ac = L.circleMarker(
+                [-23.381133132025578, -47.1324631120659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_89c620049fe598a4f5c5ed7f309f6a2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9714f3e9be967776b9c0593a0e88f1c = $(`<div id="html_e9714f3e9be967776b9c0593a0e88f1c" style="width: 100.0%; height: 100.0%;">                 <b>Attack #15</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 95.00%<br>                 <b>Coordinates:</b> -23.3811, -47.1325                 </div>`)[0];
+                popup_89c620049fe598a4f5c5ed7f309f6a2f.setContent(html_e9714f3e9be967776b9c0593a0e88f1c);
+            
+        
+
+        circle_marker_f7aa22306e74e3564cdca7f3e03463ac.bindPopup(popup_89c620049fe598a4f5c5ed7f309f6a2f)
+        ;
+
+        
+    
+    
+            var circle_marker_9ad42d0fb7e9ac490a68d0ecaf83b6bd = L.circleMarker(
+                [39.48355228934642, 116.16531372290211],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_29c752f0c084b68e1fb7c2eb585dec2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c44b7b4bb2dcf3e92b0fd72266468d4e = $(`<div id="html_c44b7b4bb2dcf3e92b0fd72266468d4e" style="width: 100.0%; height: 100.0%;">                 <b>Attack #16</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Beijing, China<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 79.00%<br>                 <b>Coordinates:</b> 39.4836, 116.1653                 </div>`)[0];
+                popup_29c752f0c084b68e1fb7c2eb585dec2f.setContent(html_c44b7b4bb2dcf3e92b0fd72266468d4e);
+            
+        
+
+        circle_marker_9ad42d0fb7e9ac490a68d0ecaf83b6bd.bindPopup(popup_29c752f0c084b68e1fb7c2eb585dec2f)
+        ;
+
+        
+    
+    
+            var circle_marker_3228208ec1bb66b4245cdc9aeacc8ce4 = L.circleMarker(
+                [35.28699271398755, 51.46913463615311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_ab033113c8eb82f06c7833527805492b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae327d4ba7f437668966e719c6ac2cef = $(`<div id="html_ae327d4ba7f437668966e719c6ac2cef" style="width: 100.0%; height: 100.0%;">                 <b>Attack #17</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 72.00%<br>                 <b>Coordinates:</b> 35.2870, 51.4691                 </div>`)[0];
+                popup_ab033113c8eb82f06c7833527805492b.setContent(html_ae327d4ba7f437668966e719c6ac2cef);
+            
+        
+
+        circle_marker_3228208ec1bb66b4245cdc9aeacc8ce4.bindPopup(popup_ab033113c8eb82f06c7833527805492b)
+        ;
+
+        
+    
+    
+            var circle_marker_5a477ca5dab35000a3e26ed445f57bb9 = L.circleMarker(
+                [6.53872233606398, 3.3890977793986123],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_736dc88d1c11188b2dd81123847ec1e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a14f6aa9209d3b7e0b30aabf51b63d4 = $(`<div id="html_0a14f6aa9209d3b7e0b30aabf51b63d4" style="width: 100.0%; height: 100.0%;">                 <b>Attack #18</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 76.00%<br>                 <b>Coordinates:</b> 6.5387, 3.3891                 </div>`)[0];
+                popup_736dc88d1c11188b2dd81123847ec1e5.setContent(html_0a14f6aa9209d3b7e0b30aabf51b63d4);
+            
+        
+
+        circle_marker_5a477ca5dab35000a3e26ed445f57bb9.bindPopup(popup_736dc88d1c11188b2dd81123847ec1e5)
+        ;
+
+        
+    
+    
+            var circle_marker_412399e87c22c86830999ab4abd1123f = L.circleMarker(
+                [21.418853002162972, 106.1867494854383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_7e67ddad5503c688cfb212fe44ca2676 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b06120396f047f93d97b3a1567687555 = $(`<div id="html_b06120396f047f93d97b3a1567687555" style="width: 100.0%; height: 100.0%;">                 <b>Attack #19</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 94.00%<br>                 <b>Coordinates:</b> 21.4189, 106.1867                 </div>`)[0];
+                popup_7e67ddad5503c688cfb212fe44ca2676.setContent(html_b06120396f047f93d97b3a1567687555);
+            
+        
+
+        circle_marker_412399e87c22c86830999ab4abd1123f.bindPopup(popup_7e67ddad5503c688cfb212fe44ca2676)
+        ;
+
+        
+    
+    
+            var circle_marker_9800cf91e2944e6b6c5504aa999e5403 = L.circleMarker(
+                [-24.025033556449188, -46.274674356670246],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_cfd5a40a569bd93a3e5afdc34e5baeec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_826f74b8fca10f11ec9c875b5b143f59 = $(`<div id="html_826f74b8fca10f11ec9c875b5b143f59" style="width: 100.0%; height: 100.0%;">                 <b>Attack #20</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 76.00%<br>                 <b>Coordinates:</b> -24.0250, -46.2747                 </div>`)[0];
+                popup_cfd5a40a569bd93a3e5afdc34e5baeec.setContent(html_826f74b8fca10f11ec9c875b5b143f59);
+            
+        
+
+        circle_marker_9800cf91e2944e6b6c5504aa999e5403.bindPopup(popup_cfd5a40a569bd93a3e5afdc34e5baeec)
+        ;
+
+        
+    
+    
+            var circle_marker_1f055232e01cb7ddda50bd8c87a4f3a5 = L.circleMarker(
+                [35.35488065098994, 51.75904864836226],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_501f2035ed8f464e3503c378917d3fc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b54f14520db09a3bffa4368078579b6 = $(`<div id="html_7b54f14520db09a3bffa4368078579b6" style="width: 100.0%; height: 100.0%;">                 <b>Attack #21</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 35.3549, 51.7590                 </div>`)[0];
+                popup_501f2035ed8f464e3503c378917d3fc5.setContent(html_7b54f14520db09a3bffa4368078579b6);
+            
+        
+
+        circle_marker_1f055232e01cb7ddda50bd8c87a4f3a5.bindPopup(popup_501f2035ed8f464e3503c378917d3fc5)
+        ;
+
+        
+    
+    
+            var circle_marker_a9ae9c2727bb8089b321b545a8075e95 = L.circleMarker(
+                [50.73518608918387, 30.52492043335494],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_21f5ad69f26d248262914216468540b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_441ebf2ae7bf4118f861bc99efc2fb8a = $(`<div id="html_441ebf2ae7bf4118f861bc99efc2fb8a" style="width: 100.0%; height: 100.0%;">                 <b>Attack #22</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 71.00%<br>                 <b>Coordinates:</b> 50.7352, 30.5249                 </div>`)[0];
+                popup_21f5ad69f26d248262914216468540b4.setContent(html_441ebf2ae7bf4118f861bc99efc2fb8a);
+            
+        
+
+        circle_marker_a9ae9c2727bb8089b321b545a8075e95.bindPopup(popup_21f5ad69f26d248262914216468540b4)
+        ;
+
+        
+    
+    
+            var circle_marker_f4f870f22bbdff81f3b64a88054fa505 = L.circleMarker(
+                [40.890438246396435, -74.33973848774629],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_668b1ff1122cb908c707812d631d0f9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4834ccd7acd449bb4e242a7594d0d7eb = $(`<div id="html_4834ccd7acd449bb4e242a7594d0d7eb" style="width: 100.0%; height: 100.0%;">                 <b>Attack #23</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 93.00%<br>                 <b>Coordinates:</b> 40.8904, -74.3397                 </div>`)[0];
+                popup_668b1ff1122cb908c707812d631d0f9b.setContent(html_4834ccd7acd449bb4e242a7594d0d7eb);
+            
+        
+
+        circle_marker_f4f870f22bbdff81f3b64a88054fa505.bindPopup(popup_668b1ff1122cb908c707812d631d0f9b)
+        ;
+
+        
+    
+    
+            var circle_marker_6a36e9b359e5ebe912031c40ecac7794 = L.circleMarker(
+                [6.926116201749005, 3.1066514564208525],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_576cd001564f4773e011540649271db9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51220967bc9b9992a4fe9fcddb7b2d77 = $(`<div id="html_51220967bc9b9992a4fe9fcddb7b2d77" style="width: 100.0%; height: 100.0%;">                 <b>Attack #24</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 71.00%<br>                 <b>Coordinates:</b> 6.9261, 3.1067                 </div>`)[0];
+                popup_576cd001564f4773e011540649271db9.setContent(html_51220967bc9b9992a4fe9fcddb7b2d77);
+            
+        
+
+        circle_marker_6a36e9b359e5ebe912031c40ecac7794.bindPopup(popup_576cd001564f4773e011540649271db9)
+        ;
+
+        
+    
+    
+            var circle_marker_5ffb0874a96353f14b4d585d93656f91 = L.circleMarker(
+                [-23.468990532749665, -47.128879501343384],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_c2889d039380e7199d05a03f68a30c04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e24e8442856713cbb3b3b1dad6400c41 = $(`<div id="html_e24e8442856713cbb3b3b1dad6400c41" style="width: 100.0%; height: 100.0%;">                 <b>Attack #25</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 95.00%<br>                 <b>Coordinates:</b> -23.4690, -47.1289                 </div>`)[0];
+                popup_c2889d039380e7199d05a03f68a30c04.setContent(html_e24e8442856713cbb3b3b1dad6400c41);
+            
+        
+
+        circle_marker_5ffb0874a96353f14b4d585d93656f91.bindPopup(popup_c2889d039380e7199d05a03f68a30c04)
+        ;
+
+        
+    
+    
+            var circle_marker_be88368dab050b80ff45fc7585760124 = L.circleMarker(
+                [6.894741368914712, 2.9660824663278698],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_150edbdb66f30d0a1737eba40cdd78c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7736c8434e211662cc24830863972220 = $(`<div id="html_7736c8434e211662cc24830863972220" style="width: 100.0%; height: 100.0%;">                 <b>Attack #26</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 90.00%<br>                 <b>Coordinates:</b> 6.8947, 2.9661                 </div>`)[0];
+                popup_150edbdb66f30d0a1737eba40cdd78c6.setContent(html_7736c8434e211662cc24830863972220);
+            
+        
+
+        circle_marker_be88368dab050b80ff45fc7585760124.bindPopup(popup_150edbdb66f30d0a1737eba40cdd78c6)
+        ;
+
+        
+    
+    
+            var circle_marker_ba66cf14816488a3b1da2dec845521d4 = L.circleMarker(
+                [39.563317529370494, 116.4715627476534],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_5cdad0dd0cb90edd0c692eb65185ba0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a930f09d58dc27c551a3b646b7b116d6 = $(`<div id="html_a930f09d58dc27c551a3b646b7b116d6" style="width: 100.0%; height: 100.0%;">                 <b>Attack #27</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Beijing, China<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 91.00%<br>                 <b>Coordinates:</b> 39.5633, 116.4716                 </div>`)[0];
+                popup_5cdad0dd0cb90edd0c692eb65185ba0b.setContent(html_a930f09d58dc27c551a3b646b7b116d6);
+            
+        
+
+        circle_marker_ba66cf14816488a3b1da2dec845521d4.bindPopup(popup_5cdad0dd0cb90edd0c692eb65185ba0b)
+        ;
+
+        
+    
+    
+            var circle_marker_c76301d3006b3983818324fe6a1cdec0 = L.circleMarker(
+                [50.140628185765415, 30.272880320454373],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_48dfa73bedd7e9b7aa05b17e2c7ecd3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8c3c9e581d980781e835a98d5b6ab2a = $(`<div id="html_e8c3c9e581d980781e835a98d5b6ab2a" style="width: 100.0%; height: 100.0%;">                 <b>Attack #28</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 50.1406, 30.2729                 </div>`)[0];
+                popup_48dfa73bedd7e9b7aa05b17e2c7ecd3d.setContent(html_e8c3c9e581d980781e835a98d5b6ab2a);
+            
+        
+
+        circle_marker_c76301d3006b3983818324fe6a1cdec0.bindPopup(popup_48dfa73bedd7e9b7aa05b17e2c7ecd3d)
+        ;
+
+        
+    
+    
+            var circle_marker_179058b5ee88c49cc959a1fa78c6050f = L.circleMarker(
+                [50.91916492048361, 30.921425353757307],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_48a666a69ae555c59ab731142b9384f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc45da2df329f612e22054f2fc042116 = $(`<div id="html_bc45da2df329f612e22054f2fc042116" style="width: 100.0%; height: 100.0%;">                 <b>Attack #29</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 81.00%<br>                 <b>Coordinates:</b> 50.9192, 30.9214                 </div>`)[0];
+                popup_48a666a69ae555c59ab731142b9384f5.setContent(html_bc45da2df329f612e22054f2fc042116);
+            
+        
+
+        circle_marker_179058b5ee88c49cc959a1fa78c6050f.bindPopup(popup_48a666a69ae555c59ab731142b9384f5)
+        ;
+
+        
+    
+    
+            var circle_marker_223f9c8c9658e077459219969968469f = L.circleMarker(
+                [40.70653911110486, -74.18567479141258],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_a49fcbb623f4f6efb3484b383e5662f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b57080838712b33dca8d3139a7eaa0fc = $(`<div id="html_b57080838712b33dca8d3139a7eaa0fc" style="width: 100.0%; height: 100.0%;">                 <b>Attack #30</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 81.00%<br>                 <b>Coordinates:</b> 40.7065, -74.1857                 </div>`)[0];
+                popup_a49fcbb623f4f6efb3484b383e5662f9.setContent(html_b57080838712b33dca8d3139a7eaa0fc);
+            
+        
+
+        circle_marker_223f9c8c9658e077459219969968469f.bindPopup(popup_a49fcbb623f4f6efb3484b383e5662f9)
+        ;
+
+        
+    
+    
+            var circle_marker_0cc03a38406b356fc2b325cddef82d21 = L.circleMarker(
+                [55.59614997425392, 37.437757841415205],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_4d0e287028ed0c10b0286d0be42c4d40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efa13f772a5807b16fe273c3d0707ae8 = $(`<div id="html_efa13f772a5807b16fe273c3d0707ae8" style="width: 100.0%; height: 100.0%;">                 <b>Attack #31</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Moscow, Russia<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 85.00%<br>                 <b>Coordinates:</b> 55.5961, 37.4378                 </div>`)[0];
+                popup_4d0e287028ed0c10b0286d0be42c4d40.setContent(html_efa13f772a5807b16fe273c3d0707ae8);
+            
+        
+
+        circle_marker_0cc03a38406b356fc2b325cddef82d21.bindPopup(popup_4d0e287028ed0c10b0286d0be42c4d40)
+        ;
+
+        
+    
+    
+            var circle_marker_9161d6fded9349f27f100c36003cde73 = L.circleMarker(
+                [35.430586937797045, 51.337986076788916],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_c3ff1ee8e574702a26ba03dd9a4150cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d4606bb70479a474454d32e18b509fa = $(`<div id="html_1d4606bb70479a474454d32e18b509fa" style="width: 100.0%; height: 100.0%;">                 <b>Attack #32</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 97.00%<br>                 <b>Coordinates:</b> 35.4306, 51.3380                 </div>`)[0];
+                popup_c3ff1ee8e574702a26ba03dd9a4150cd.setContent(html_1d4606bb70479a474454d32e18b509fa);
+            
+        
+
+        circle_marker_9161d6fded9349f27f100c36003cde73.bindPopup(popup_c3ff1ee8e574702a26ba03dd9a4150cd)
+        ;
+
+        
+    
+    
+            var circle_marker_c4714edf36ef2a19d17d10055137292b = L.circleMarker(
+                [38.845315473205666, 125.83376151404362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_be2819334cc629ac8b87590ae60b9c33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c944f594f075bcabaa3fe1f0938c95af = $(`<div id="html_c944f594f075bcabaa3fe1f0938c95af" style="width: 100.0%; height: 100.0%;">                 <b>Attack #33</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Pyongyang, North Korea<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 73.00%<br>                 <b>Coordinates:</b> 38.8453, 125.8338                 </div>`)[0];
+                popup_be2819334cc629ac8b87590ae60b9c33.setContent(html_c944f594f075bcabaa3fe1f0938c95af);
+            
+        
+
+        circle_marker_c4714edf36ef2a19d17d10055137292b.bindPopup(popup_be2819334cc629ac8b87590ae60b9c33)
+        ;
+
+        
+    
+    
+            var circle_marker_16bfd9f1af8574373cf5b3dc3345aba6 = L.circleMarker(
+                [39.8985408464143, 116.23317835223011],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_12a75a12e3082a7c838aa14ed9c95dc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6dec0bdd9d512a80b77ed09a816766f = $(`<div id="html_a6dec0bdd9d512a80b77ed09a816766f" style="width: 100.0%; height: 100.0%;">                 <b>Attack #34</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Beijing, China<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 83.00%<br>                 <b>Coordinates:</b> 39.8985, 116.2332                 </div>`)[0];
+                popup_12a75a12e3082a7c838aa14ed9c95dc2.setContent(html_a6dec0bdd9d512a80b77ed09a816766f);
+            
+        
+
+        circle_marker_16bfd9f1af8574373cf5b3dc3345aba6.bindPopup(popup_12a75a12e3082a7c838aa14ed9c95dc2)
+        ;
+
+        
+    
+    
+            var circle_marker_dd5ce367d5a71841891fb108a77a4074 = L.circleMarker(
+                [20.60603862060057, 106.29200949863767],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_e50db519485070a03d023b669c1456ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6964ec0807ac0a909dbf3d3ace80d0 = $(`<div id="html_bd6964ec0807ac0a909dbf3d3ace80d0" style="width: 100.0%; height: 100.0%;">                 <b>Attack #35</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 85.00%<br>                 <b>Coordinates:</b> 20.6060, 106.2920                 </div>`)[0];
+                popup_e50db519485070a03d023b669c1456ec.setContent(html_bd6964ec0807ac0a909dbf3d3ace80d0);
+            
+        
+
+        circle_marker_dd5ce367d5a71841891fb108a77a4074.bindPopup(popup_e50db519485070a03d023b669c1456ec)
+        ;
+
+        
+    
+    
+            var circle_marker_1b053b2f9e45957a06900ae17a23b537 = L.circleMarker(
+                [20.81539486179817, 105.7680706324228],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_860510270ab5b0d26e9bc386330dadff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4ce7fafe9cdd7e3cdd9eca5dc3973b3 = $(`<div id="html_b4ce7fafe9cdd7e3cdd9eca5dc3973b3" style="width: 100.0%; height: 100.0%;">                 <b>Attack #36</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 88.00%<br>                 <b>Coordinates:</b> 20.8154, 105.7681                 </div>`)[0];
+                popup_860510270ab5b0d26e9bc386330dadff.setContent(html_b4ce7fafe9cdd7e3cdd9eca5dc3973b3);
+            
+        
+
+        circle_marker_1b053b2f9e45957a06900ae17a23b537.bindPopup(popup_860510270ab5b0d26e9bc386330dadff)
+        ;
+
+        
+    
+    
+            var circle_marker_51e810587e4a2863190d5bb4aa494ec7 = L.circleMarker(
+                [36.00123422745266, 51.141312922034615],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_ddef43f12f95f9707182e24d60d1ff2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_779e1bf3fd4ad4fc3f82aae8a4045735 = $(`<div id="html_779e1bf3fd4ad4fc3f82aae8a4045735" style="width: 100.0%; height: 100.0%;">                 <b>Attack #37</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 97.00%<br>                 <b>Coordinates:</b> 36.0012, 51.1413                 </div>`)[0];
+                popup_ddef43f12f95f9707182e24d60d1ff2c.setContent(html_779e1bf3fd4ad4fc3f82aae8a4045735);
+            
+        
+
+        circle_marker_51e810587e4a2863190d5bb4aa494ec7.bindPopup(popup_ddef43f12f95f9707182e24d60d1ff2c)
+        ;
+
+        
+    
+    
+            var circle_marker_27f7fa576d98c993cc95bcb9d1dc85f8 = L.circleMarker(
+                [39.496219888872425, 125.83892223095732],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_ccf6ab01937e058c4b3a36a666c926b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26575965dbdf82914c8c40420ed05b66 = $(`<div id="html_26575965dbdf82914c8c40420ed05b66" style="width: 100.0%; height: 100.0%;">                 <b>Attack #38</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Pyongyang, North Korea<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 74.00%<br>                 <b>Coordinates:</b> 39.4962, 125.8389                 </div>`)[0];
+                popup_ccf6ab01937e058c4b3a36a666c926b8.setContent(html_26575965dbdf82914c8c40420ed05b66);
+            
+        
+
+        circle_marker_27f7fa576d98c993cc95bcb9d1dc85f8.bindPopup(popup_ccf6ab01937e058c4b3a36a666c926b8)
+        ;
+
+        
+    
+    
+            var circle_marker_cb9c02df31b891ceb82ec6bf83ab4986 = L.circleMarker(
+                [55.34875900154471, 37.8920467606635],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_c33f102297ee06280aef36a0189091cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01e91ef708eaec325d1a3936d6079281 = $(`<div id="html_01e91ef708eaec325d1a3936d6079281" style="width: 100.0%; height: 100.0%;">                 <b>Attack #39</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Moscow, Russia<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 71.00%<br>                 <b>Coordinates:</b> 55.3488, 37.8920                 </div>`)[0];
+                popup_c33f102297ee06280aef36a0189091cb.setContent(html_01e91ef708eaec325d1a3936d6079281);
+            
+        
+
+        circle_marker_cb9c02df31b891ceb82ec6bf83ab4986.bindPopup(popup_c33f102297ee06280aef36a0189091cb)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa62094d5afb5206a7518f4904e3861 = L.circleMarker(
+                [55.358657474799585, 38.09055487350853],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_cdf8422457284488a90b454cbe1de582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5219f7d758b6fec1b7427050df4b49b9 = $(`<div id="html_5219f7d758b6fec1b7427050df4b49b9" style="width: 100.0%; height: 100.0%;">                 <b>Attack #40</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Moscow, Russia<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 55.3587, 38.0906                 </div>`)[0];
+                popup_cdf8422457284488a90b454cbe1de582.setContent(html_5219f7d758b6fec1b7427050df4b49b9);
+            
+        
+
+        circle_marker_4fa62094d5afb5206a7518f4904e3861.bindPopup(popup_cdf8422457284488a90b454cbe1de582)
+        ;
+
+        
+    
+    
+            var circle_marker_3ce1e223407d3982760c723828a28c0b = L.circleMarker(
+                [19.513530370425688, 73.18875547735352],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_9ef3e4da5db57e6863cf45456e66cc2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bee79dc2b2921483bc5bfa977ab871a = $(`<div id="html_6bee79dc2b2921483bc5bfa977ab871a" style="width: 100.0%; height: 100.0%;">                 <b>Attack #41</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Mumbai, India<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 94.00%<br>                 <b>Coordinates:</b> 19.5135, 73.1888                 </div>`)[0];
+                popup_9ef3e4da5db57e6863cf45456e66cc2c.setContent(html_6bee79dc2b2921483bc5bfa977ab871a);
+            
+        
+
+        circle_marker_3ce1e223407d3982760c723828a28c0b.bindPopup(popup_9ef3e4da5db57e6863cf45456e66cc2c)
+        ;
+
+        
+    
+    
+            var circle_marker_66ff858d07b39726adb449e8649a0a1e = L.circleMarker(
+                [50.19288305943628, 30.15973968696152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_b0ad9e6b1ad1c51c1d23d5145829bdf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0befc2c84e8fcd268aba442728915ae = $(`<div id="html_a0befc2c84e8fcd268aba442728915ae" style="width: 100.0%; height: 100.0%;">                 <b>Attack #42</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 79.00%<br>                 <b>Coordinates:</b> 50.1929, 30.1597                 </div>`)[0];
+                popup_b0ad9e6b1ad1c51c1d23d5145829bdf6.setContent(html_a0befc2c84e8fcd268aba442728915ae);
+            
+        
+
+        circle_marker_66ff858d07b39726adb449e8649a0a1e.bindPopup(popup_b0ad9e6b1ad1c51c1d23d5145829bdf6)
+        ;
+
+        
+    
+    
+            var circle_marker_6f4e03a645586459364e332af95efe8e = L.circleMarker(
+                [21.456340674425704, 106.23730326766626],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_8e140192b618886c0d183a0f382f2ad0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43bf5c9818d1c84474c5ca68853da026 = $(`<div id="html_43bf5c9818d1c84474c5ca68853da026" style="width: 100.0%; height: 100.0%;">                 <b>Attack #43</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 93.00%<br>                 <b>Coordinates:</b> 21.4563, 106.2373                 </div>`)[0];
+                popup_8e140192b618886c0d183a0f382f2ad0.setContent(html_43bf5c9818d1c84474c5ca68853da026);
+            
+        
+
+        circle_marker_6f4e03a645586459364e332af95efe8e.bindPopup(popup_8e140192b618886c0d183a0f382f2ad0)
+        ;
+
+        
+    
+    
+            var circle_marker_6cec23d1604442949ce9cb77c96f117b = L.circleMarker(
+                [6.4306523223034615, 3.721097538753301],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_40edcd43f719432ce388fdafc67cb85f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d29526f7e563d52e530033a1ef114691 = $(`<div id="html_d29526f7e563d52e530033a1ef114691" style="width: 100.0%; height: 100.0%;">                 <b>Attack #44</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 89.00%<br>                 <b>Coordinates:</b> 6.4307, 3.7211                 </div>`)[0];
+                popup_40edcd43f719432ce388fdafc67cb85f.setContent(html_d29526f7e563d52e530033a1ef114691);
+            
+        
+
+        circle_marker_6cec23d1604442949ce9cb77c96f117b.bindPopup(popup_40edcd43f719432ce388fdafc67cb85f)
+        ;
+
+        
+    
+    
+            var circle_marker_f4d9e70373be595530aa3fd5cf9c2589 = L.circleMarker(
+                [40.895322229146416, -74.43726626289566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_e80cde7df35eb6cd1686cc1e40798d20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91ed52b053fd2b279ed3fd39803d1101 = $(`<div id="html_91ed52b053fd2b279ed3fd39803d1101" style="width: 100.0%; height: 100.0%;">                 <b>Attack #45</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 95.00%<br>                 <b>Coordinates:</b> 40.8953, -74.4373                 </div>`)[0];
+                popup_e80cde7df35eb6cd1686cc1e40798d20.setContent(html_91ed52b053fd2b279ed3fd39803d1101);
+            
+        
+
+        circle_marker_f4d9e70373be595530aa3fd5cf9c2589.bindPopup(popup_e80cde7df35eb6cd1686cc1e40798d20)
+        ;
+
+        
+    
+    
+            var circle_marker_faf1d8e03a872c98750f8dd15647bff1 = L.circleMarker(
+                [20.568322857342192, 105.47277003729062],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_ce75957f240046ff48ccb64da621ce42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6df1e8381a4978261b12e747989ec0 = $(`<div id="html_ac6df1e8381a4978261b12e747989ec0" style="width: 100.0%; height: 100.0%;">                 <b>Attack #46</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Hanoi, Vietnam<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 79.00%<br>                 <b>Coordinates:</b> 20.5683, 105.4728                 </div>`)[0];
+                popup_ce75957f240046ff48ccb64da621ce42.setContent(html_ac6df1e8381a4978261b12e747989ec0);
+            
+        
+
+        circle_marker_faf1d8e03a872c98750f8dd15647bff1.bindPopup(popup_ce75957f240046ff48ccb64da621ce42)
+        ;
+
+        
+    
+    
+            var circle_marker_6fdc263513fbb7e691ea5a9d4114cc13 = L.circleMarker(
+                [6.54493806554821, 3.826494209350149],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_a11c87f1fddd19bd000946549d39feb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdebdec7da63719c2241a3d54f9cee5e = $(`<div id="html_fdebdec7da63719c2241a3d54f9cee5e" style="width: 100.0%; height: 100.0%;">                 <b>Attack #47</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 70.00%<br>                 <b>Coordinates:</b> 6.5449, 3.8265                 </div>`)[0];
+                popup_a11c87f1fddd19bd000946549d39feb2.setContent(html_fdebdec7da63719c2241a3d54f9cee5e);
+            
+        
+
+        circle_marker_6fdc263513fbb7e691ea5a9d4114cc13.bindPopup(popup_a11c87f1fddd19bd000946549d39feb2)
+        ;
+
+        
+    
+    
+            var circle_marker_e5864470891852c7d39d86b094ab9b16 = L.circleMarker(
+                [-23.644599874971167, -46.435950644864214],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_3312f89b0aa6061324de7dbde5474ef6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a52bf33c77e19800f67d68547b3fcb80 = $(`<div id="html_a52bf33c77e19800f67d68547b3fcb80" style="width: 100.0%; height: 100.0%;">                 <b>Attack #48</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 90.00%<br>                 <b>Coordinates:</b> -23.6446, -46.4360                 </div>`)[0];
+                popup_3312f89b0aa6061324de7dbde5474ef6.setContent(html_a52bf33c77e19800f67d68547b3fcb80);
+            
+        
+
+        circle_marker_e5864470891852c7d39d86b094ab9b16.bindPopup(popup_3312f89b0aa6061324de7dbde5474ef6)
+        ;
+
+        
+    
+    
+            var circle_marker_b9874330057b6f1916c56beaded50e1d = L.circleMarker(
+                [6.754319744576902, 3.8788548847702833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_0ac502e22f44b371128fa4810a4f7aa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82874e26d4ba017163a8f3e3ffd5d740 = $(`<div id="html_82874e26d4ba017163a8f3e3ffd5d740" style="width: 100.0%; height: 100.0%;">                 <b>Attack #49</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 84.00%<br>                 <b>Coordinates:</b> 6.7543, 3.8789                 </div>`)[0];
+                popup_0ac502e22f44b371128fa4810a4f7aa9.setContent(html_82874e26d4ba017163a8f3e3ffd5d740);
+            
+        
+
+        circle_marker_b9874330057b6f1916c56beaded50e1d.bindPopup(popup_0ac502e22f44b371128fa4810a4f7aa9)
+        ;
+
+        
+    
+    
+            var circle_marker_c0f0d79f8d497611c2d6c23bb7c16f97 = L.circleMarker(
+                [50.346945651375414, 30.669457003039884],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_dd224a484fcf6eb9decb66b753c3cb7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1db50f79ddbfec811fd3a87220231dbf = $(`<div id="html_1db50f79ddbfec811fd3a87220231dbf" style="width: 100.0%; height: 100.0%;">                 <b>Attack #50</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 73.00%<br>                 <b>Coordinates:</b> 50.3469, 30.6695                 </div>`)[0];
+                popup_dd224a484fcf6eb9decb66b753c3cb7d.setContent(html_1db50f79ddbfec811fd3a87220231dbf);
+            
+        
+
+        circle_marker_c0f0d79f8d497611c2d6c23bb7c16f97.bindPopup(popup_dd224a484fcf6eb9decb66b753c3cb7d)
+        ;
+
+        
+    
+    
+            var circle_marker_1f607e347c71313d102979f9971b55b9 = L.circleMarker(
+                [38.58396525907623, 126.23048119956393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_3371d4b48e99c49021fb30347f6c84fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b06409ad0940b4f258f63c16629bdcea = $(`<div id="html_b06409ad0940b4f258f63c16629bdcea" style="width: 100.0%; height: 100.0%;">                 <b>Attack #51</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Pyongyang, North Korea<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 82.00%<br>                 <b>Coordinates:</b> 38.5840, 126.2305                 </div>`)[0];
+                popup_3371d4b48e99c49021fb30347f6c84fe.setContent(html_b06409ad0940b4f258f63c16629bdcea);
+            
+        
+
+        circle_marker_1f607e347c71313d102979f9971b55b9.bindPopup(popup_3371d4b48e99c49021fb30347f6c84fe)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbfa3d2b9f85e3bd57a43bf3d28ea6e = L.circleMarker(
+                [-23.57780021532608, -46.33446415695036],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_5a355930427a97445644726df001da34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30474935748902291f66cc3f22bbcb7c = $(`<div id="html_30474935748902291f66cc3f22bbcb7c" style="width: 100.0%; height: 100.0%;">                 <b>Attack #52</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 92.00%<br>                 <b>Coordinates:</b> -23.5778, -46.3345                 </div>`)[0];
+                popup_5a355930427a97445644726df001da34.setContent(html_30474935748902291f66cc3f22bbcb7c);
+            
+        
+
+        circle_marker_bbbfa3d2b9f85e3bd57a43bf3d28ea6e.bindPopup(popup_5a355930427a97445644726df001da34)
+        ;
+
+        
+    
+    
+            var circle_marker_16340c3036f83e5812c647e781c34a6d = L.circleMarker(
+                [35.26367717684515, 51.09997565485904],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_c26e058339955fd59eae2f6d7194569a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ac770fb4c50fa89078797320da17eb4 = $(`<div id="html_2ac770fb4c50fa89078797320da17eb4" style="width: 100.0%; height: 100.0%;">                 <b>Attack #53</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 91.00%<br>                 <b>Coordinates:</b> 35.2637, 51.1000                 </div>`)[0];
+                popup_c26e058339955fd59eae2f6d7194569a.setContent(html_2ac770fb4c50fa89078797320da17eb4);
+            
+        
+
+        circle_marker_16340c3036f83e5812c647e781c34a6d.bindPopup(popup_c26e058339955fd59eae2f6d7194569a)
+        ;
+
+        
+    
+    
+            var circle_marker_09c1e1562fb77c4f969211d7f400b9bd = L.circleMarker(
+                [35.68849806247405, 51.44868318595177],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_03cb57a4c4992211731aa8d64f89e996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89039df11712d2f3790ebb7dc5d45bfd = $(`<div id="html_89039df11712d2f3790ebb7dc5d45bfd" style="width: 100.0%; height: 100.0%;">                 <b>Attack #54</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 83.00%<br>                 <b>Coordinates:</b> 35.6885, 51.4487                 </div>`)[0];
+                popup_03cb57a4c4992211731aa8d64f89e996.setContent(html_89039df11712d2f3790ebb7dc5d45bfd);
+            
+        
+
+        circle_marker_09c1e1562fb77c4f969211d7f400b9bd.bindPopup(popup_03cb57a4c4992211731aa8d64f89e996)
+        ;
+
+        
+    
+    
+            var circle_marker_05ca5427fbb5f88ffe99e90125c8204e = L.circleMarker(
+                [-23.36255128622995, -46.62384599900313],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_fcf57cb001518c3a3bb0e1663b4afafb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f72c665dd22d04ce7d7734e5e1626f0 = $(`<div id="html_2f72c665dd22d04ce7d7734e5e1626f0" style="width: 100.0%; height: 100.0%;">                 <b>Attack #55</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 97.00%<br>                 <b>Coordinates:</b> -23.3626, -46.6238                 </div>`)[0];
+                popup_fcf57cb001518c3a3bb0e1663b4afafb.setContent(html_2f72c665dd22d04ce7d7734e5e1626f0);
+            
+        
+
+        circle_marker_05ca5427fbb5f88ffe99e90125c8204e.bindPopup(popup_fcf57cb001518c3a3bb0e1663b4afafb)
+        ;
+
+        
+    
+    
+            var circle_marker_33f486d462c9ff146f510b3fcb8881c1 = L.circleMarker(
+                [-23.475202699656258, -46.84092740964938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_25d39759a26dd2e8555b7b2b9fd797e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df6dbf5690817318a8b534043f54914e = $(`<div id="html_df6dbf5690817318a8b534043f54914e" style="width: 100.0%; height: 100.0%;">                 <b>Attack #56</b><br>                 <b>Type:</b> Port Scan<br>                 <b>Location:</b> São Paulo, Brazil<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 81.00%<br>                 <b>Coordinates:</b> -23.4752, -46.8409                 </div>`)[0];
+                popup_25d39759a26dd2e8555b7b2b9fd797e4.setContent(html_df6dbf5690817318a8b534043f54914e);
+            
+        
+
+        circle_marker_33f486d462c9ff146f510b3fcb8881c1.bindPopup(popup_25d39759a26dd2e8555b7b2b9fd797e4)
+        ;
+
+        
+    
+    
+            var circle_marker_ea2140b584979d138c7baaafb62d32d6 = L.circleMarker(
+                [50.17235235602236, 30.88158964016806],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_353ca55e6d6b44eb9c58f7329e3712d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_795ae6611a595188c0c95c0484cf0078 = $(`<div id="html_795ae6611a595188c0c95c0484cf0078" style="width: 100.0%; height: 100.0%;">                 <b>Attack #57</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 93.00%<br>                 <b>Coordinates:</b> 50.1724, 30.8816                 </div>`)[0];
+                popup_353ca55e6d6b44eb9c58f7329e3712d7.setContent(html_795ae6611a595188c0c95c0484cf0078);
+            
+        
+
+        circle_marker_ea2140b584979d138c7baaafb62d32d6.bindPopup(popup_353ca55e6d6b44eb9c58f7329e3712d7)
+        ;
+
+        
+    
+    
+            var circle_marker_4322a9c6ee1af69a96a48b1988964709 = L.circleMarker(
+                [41.19472039218512, -74.05224774928028],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_e47674a178604bc3946465d50a0e99b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb5391bf60a0668c27cf6b945db61fc5 = $(`<div id="html_cb5391bf60a0668c27cf6b945db61fc5" style="width: 100.0%; height: 100.0%;">                 <b>Attack #58</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> New York, United States<br>                 <b>Severity:</b> MEDIUM<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 41.1947, -74.0522                 </div>`)[0];
+                popup_e47674a178604bc3946465d50a0e99b9.setContent(html_cb5391bf60a0668c27cf6b945db61fc5);
+            
+        
+
+        circle_marker_4322a9c6ee1af69a96a48b1988964709.bindPopup(popup_e47674a178604bc3946465d50a0e99b9)
+        ;
+
+        
+    
+    
+            var circle_marker_6dd85e61f1dd1a0467b6d770a0b525db = L.circleMarker(
+                [39.514037583672796, 116.57399412626184],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_298d439a38c0903883fd7f465408e3c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64471bf58d3525ce773dc76e4f6c9095 = $(`<div id="html_64471bf58d3525ce773dc76e4f6c9095" style="width: 100.0%; height: 100.0%;">                 <b>Attack #59</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Beijing, China<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 93.00%<br>                 <b>Coordinates:</b> 39.5140, 116.5740                 </div>`)[0];
+                popup_298d439a38c0903883fd7f465408e3c4.setContent(html_64471bf58d3525ce773dc76e4f6c9095);
+            
+        
+
+        circle_marker_6dd85e61f1dd1a0467b6d770a0b525db.bindPopup(popup_298d439a38c0903883fd7f465408e3c4)
+        ;
+
+        
+    
+    
+            var circle_marker_bdf0bfd55fbd585e4e3421b7abd60a07 = L.circleMarker(
+                [36.13545186190712, 51.08712285674024],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_2fbb2a016e7fa4324499ddf30889d97b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ba8acf5c5b4e6bd2e1050042f11a0ea = $(`<div id="html_1ba8acf5c5b4e6bd2e1050042f11a0ea" style="width: 100.0%; height: 100.0%;">                 <b>Attack #60</b><br>                 <b>Type:</b> DDoS<br>                 <b>Location:</b> Tehran, Iran<br>                 <b>Severity:</b> HIGH<br>                 <b>Confidence:</b> 83.00%<br>                 <b>Coordinates:</b> 36.1355, 51.0871                 </div>`)[0];
+                popup_2fbb2a016e7fa4324499ddf30889d97b.setContent(html_1ba8acf5c5b4e6bd2e1050042f11a0ea);
+            
+        
+
+        circle_marker_bdf0bfd55fbd585e4e3421b7abd60a07.bindPopup(popup_2fbb2a016e7fa4324499ddf30889d97b)
+        ;
+
+        
+    
+    
+            var circle_marker_f6e125cb51584a87aecd5fcb66e51746 = L.circleMarker(
+                [50.70369762500893, 30.43738327777914],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_45fd8ee8fb52d342d722f3a971796c81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0df4537970fca77a382a4827c2b2c73 = $(`<div id="html_c0df4537970fca77a382a4827c2b2c73" style="width: 100.0%; height: 100.0%;">                 <b>Attack #61</b><br>                 <b>Type:</b> SYN Flood<br>                 <b>Location:</b> Kyiv, Ukraine<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 75.00%<br>                 <b>Coordinates:</b> 50.7037, 30.4374                 </div>`)[0];
+                popup_45fd8ee8fb52d342d722f3a971796c81.setContent(html_c0df4537970fca77a382a4827c2b2c73);
+            
+        
+
+        circle_marker_f6e125cb51584a87aecd5fcb66e51746.bindPopup(popup_45fd8ee8fb52d342d722f3a971796c81)
+        ;
+
+        
+    
+    
+            var circle_marker_a0cd6eced196090d54913e4f1bde3e78 = L.circleMarker(
+                [39.95411672404411, 116.21785637980416],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_20426b1d7c99fbcf3409bbc09a9fe243 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79da6ec79799256c8c30ad36c5238565 = $(`<div id="html_79da6ec79799256c8c30ad36c5238565" style="width: 100.0%; height: 100.0%;">                 <b>Attack #62</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Beijing, China<br>                 <b>Severity:</b> LOW<br>                 <b>Confidence:</b> 87.00%<br>                 <b>Coordinates:</b> 39.9541, 116.2179                 </div>`)[0];
+                popup_20426b1d7c99fbcf3409bbc09a9fe243.setContent(html_79da6ec79799256c8c30ad36c5238565);
+            
+        
+
+        circle_marker_a0cd6eced196090d54913e4f1bde3e78.bindPopup(popup_20426b1d7c99fbcf3409bbc09a9fe243)
+        ;
+
+        
+    
+    
+            var circle_marker_0905b330ecc0e0f4e474d98b3cc6dc89 = L.circleMarker(
+                [6.035430755763235, 3.3762377139819044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b9b2c1e5e54efaf706de1df4215f25f3);
+        
+    
+        var popup_b6cda93d8c2877ed4f0498c98c7df410 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d31455099c91686ab3a05102b680952 = $(`<div id="html_9d31455099c91686ab3a05102b680952" style="width: 100.0%; height: 100.0%;">                 <b>Attack #63</b><br>                 <b>Type:</b> Anomaly<br>                 <b>Location:</b> Lagos, Nigeria<br>                 <b>Severity:</b> CRITICAL<br>                 <b>Confidence:</b> 86.00%<br>                 <b>Coordinates:</b> 6.0354, 3.3762                 </div>`)[0];
+                popup_b6cda93d8c2877ed4f0498c98c7df410.setContent(html_9d31455099c91686ab3a05102b680952);
+            
+        
+
+        circle_marker_0905b330ecc0e0f4e474d98b3cc6dc89.bindPopup(popup_b6cda93d8c2877ed4f0498c98c7df410)
+        ;
+
+        
+    
+</script>
+</html>
